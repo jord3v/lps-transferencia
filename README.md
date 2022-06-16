@@ -2,7 +2,7 @@
 
 Clone a aplicação para o servidor, em seguida acesse a pasta
 
-    $ git clone https://github.com/imoveis/lps-transferencia.git
+    $ git clone https://github.com/jord3v/lps-transferencia.git
     $ cd lps-transferencia
 
 Crie um arquivo `.env` baseado no `.env.example` e configure as variáveis de ambiente. 
