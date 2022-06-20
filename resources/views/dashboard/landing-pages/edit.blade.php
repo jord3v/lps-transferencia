@@ -47,7 +47,7 @@
                      </div>
                   </div>
                   <div class="col-4 col-md-2">
-                     <label>Subdomínio</label>
+                     <label>Subdomínio / Domínio</label>
                      <a href="http://{{$landingPage->domain}}" class="btn btn-outline-primary btn-block" target="_blank"><i class="fas fa-link"></i> Acessar</a>
                   </div>
                   <div class="col-4 col-md-2">
@@ -115,7 +115,7 @@
          </div>
        </div>
        <div class="modal-footer justify-content-between">
-         <button type="button" class="btn btn-default" data-dismiss="modal">Compreendido</button>
+         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
        </div>
      </div>
      <!-- /.modal-content -->

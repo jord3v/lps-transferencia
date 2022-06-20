@@ -38,7 +38,7 @@
             <thead>
               <tr>
                 <th>Nome</th>
-                <th>Subdomínio</th>
+                <th>Subdomínio / Domínio</th>
                 <th>Usuário</th>
                 <th></th>
               </tr>
@@ -55,7 +55,7 @@
                               <span class="sr-only"></span>
                             </button>
                             <div class="dropdown-menu" role="menu">
-                              <a class="dropdown-item" href="#">Acessar landing page</a>
+                              <a class="dropdown-item" href="http://{{$landingPage->domain}}" target="_blank">Acessar landing page</a>
                               <a class="dropdown-item" href="{{route('landing-pages.edit', $landingPage->id)}}">Editar landing page</a>
                               <div class="dropdown-divider"></div>
                               <form method="POST" action="{{route('landing-pages.destroy', $landingPage->id)}}">

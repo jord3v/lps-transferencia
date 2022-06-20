@@ -46,7 +46,7 @@
                      </div>
                   </div>
                   <div class="col-12 col-md-4">
-                     <label>Subdomínio</label>
+                     <label>Subdomínio / Domínio</label>
                      <input type="text" name="domain" class="form-control" placeholder="foo.website.com.br" required>
                      <div class="invalid-feedback">
                         Por favor, informe o domínio
